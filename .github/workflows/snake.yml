@@ -1,0 +1,23 @@
+name: Contribution Snake
+
+on:
+  schedule:
+    - cron: '0 10 * * *' # daily update at 10:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Touch README to refresh snake image
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "chore: refresh contribution snake" || true
+          git push

@@ -1,0 +1,27 @@
+name: Metrics Refresh
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # daily update at 08:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Refresh profile README
+        run: bash ./scripts/update-profile.sh
+
+      - name: Commit updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: metrics refresh" || echo "No changes to commit"
+          git push

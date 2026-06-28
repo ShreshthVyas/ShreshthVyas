@@ -1,0 +1,18 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerBg" x1="0" y1="0" x2="1200" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0D1117" />
+      <stop offset="1" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="footerAccent" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#58A6FF" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#79C0FF" stop-opacity="0.05" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="140" rx="24" fill="url(#footerBg)" />
+  <rect x="44" y="24" width="1112" height="92" rx="18" fill="url(#footerAccent)" opacity="0.18" />
+  <path d="M76 106C176 78 296 70 384 82C472 94 564 120 696 126C828 132 936 110 1018 86" stroke="#58A6FF" stroke-width="2" stroke-linecap="round" />
+  <circle cx="758" cy="58" r="12" fill="#79C0FF" fill-opacity="0.32" />
+  <text x="70" y="72" fill="#C9D1D9" font-family="JetBrains Mono, monospace" font-size="18">Engineering focus</text>
+  <text x="70" y="98" fill="#8B949E" font-family="JetBrains Mono, monospace" font-size="14">Backend systems · API design · Cloud automation · observability</text>
+</svg>

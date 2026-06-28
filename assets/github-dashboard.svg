@@ -1,0 +1,37 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0D1117" />
+      <stop offset="1" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#161B22" />
+      <stop offset="1" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#58A6FF" />
+      <stop offset="1" stop-color="#79C0FF" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" rx="24" fill="url(#bg)" />
+  <rect x="32" y="32" width="1136" height="356" rx="24" fill="url(#card)" stroke="#30363D" stroke-opacity="0.8" stroke-width="1" />
+  <rect x="52" y="58" width="1096" height="52" rx="16" fill="#0D1117" />
+  <text x="72" y="94" fill="#58A6FF" font-family="JetBrains Mono, monospace" font-size="22" font-weight="700">GitHub Dashboard</text>
+  <text x="72" y="124" fill="#8B949E" font-family="JetBrains Mono, monospace" font-size="14">Local profile metrics rendered with consistent dark theme styling.</text>
+  <rect x="72" y="154" width="336" height="136" rx="18" fill="#0D1117" stroke="#30363D" stroke-opacity="0.7" stroke-width="1" />
+  <rect x="432" y="154" width="336" height="136" rx="18" fill="#0D1117" stroke="#30363D" stroke-opacity="0.7" stroke-width="1" />
+  <rect x="792" y="154" width="336" height="136" rx="18" fill="#0D1117" stroke="#30363D" stroke-opacity="0.7" stroke-width="1" />
+  <text x="92" y="188" fill="#C9D1D9" font-family="JetBrains Mono, monospace" font-size="18" font-weight="600">Active projects</text>
+  <text x="92" y="224" fill="#58A6FF" font-family="JetBrains Mono, monospace" font-size="32" font-weight="700">12</text>
+  <text x="452" y="188" fill="#C9D1D9" font-family="JetBrains Mono, monospace" font-size="18" font-weight="600">Recent commits</text>
+  <text x="452" y="224" fill="#58A6FF" font-family="JetBrains Mono, monospace" font-size="32" font-weight="700">246</text>
+  <text x="812" y="188" fill="#C9D1D9" font-family="JetBrains Mono, monospace" font-size="18" font-weight="600">Consistency</text>
+  <text x="812" y="224" fill="#58A6FF" font-family="JetBrains Mono, monospace" font-size="32" font-weight="700">18d</text>
+  <path d="M92 280C176 258 236 266 308 248C380 230 452 214 524 226C596 238 668 218 740 210C812 202 884 218 956 192" stroke="#58A6FF" stroke-width="3" stroke-linecap="round" />
+  <circle cx="92" cy="280" r="6" fill="#79C0FF" />
+  <circle cx="308" cy="248" r="6" fill="#58A6FF" />
+  <circle cx="524" cy="226" r="6" fill="#79C0FF" />
+  <circle cx="740" cy="210" r="6" fill="#58A6FF" />
+  <circle cx="956" cy="192" r="6" fill="#79C0FF" />
+  <text x="72" y="338" fill="#8B949E" font-family="JetBrains Mono, monospace" font-size="14">This is a local asset, so the section remains reliable on GitHub and in preview.</text>
+</svg>
